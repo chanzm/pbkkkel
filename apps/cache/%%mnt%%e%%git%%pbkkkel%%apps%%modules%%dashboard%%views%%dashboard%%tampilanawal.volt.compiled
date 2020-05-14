@@ -58,14 +58,14 @@
           <div class="col-md-12 ftco-animate text-center">
           	<div class="text mb-5 pb-3">
 	            <h1 class="mb-3">Jatim GoDay</h1>
-	            <h2>Hotels &amp; Resorts</h2>
+	            <h2>Hotels &amp; Travel</h2>
             </div>
           </div>
         </div>
         </div>
       </div>
 
-      <div class="slider-item" style="background: linear-gradient(rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)),url(images/bg_1.jpeg)no-repeat;">
+      <div class="slider-item" style="background: linear-gradient(rgba(87, 48, 16, 0.6), rgba(30, 67, 86, 0.6)),url(images/bg_3.jpg)no-repeat;">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center">
