@@ -42,10 +42,10 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
     	        <ul class="navbar-nav ml-auto">
-    	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-    	          <li class="nav-item"><a href="login.php" class="nav-link">Pesan Kamar</a></li>
+    	          <li class="nav-item active"><a href="dashawal" class="nav-link">Home</a></li>
+    	          <li class="nav-item"><a href="allhotel" class="nav-link">Pesan Kamar</a></li>
     	          <li class="nav-item"><a href="restaurant.html" class="nav-link">Pemesanan Saya</a></li>
-                <li class="nav-item"><a href="restaurant.html" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" id="navbarDropdown" role="button">Hi, User</a>
+                <li class="nav-item"><a href="restaurant.html" class="nav-link">Hi, User</a>
                  <!--    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" aria-haspopup="true">
                         <li class="nav-item"><a class="nav-link" href="blog.html" style="color: black">Logout</a></li>
                     </ul> -->

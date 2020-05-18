@@ -31,11 +31,21 @@ class DashboardController extends Controller
         $this->view->pick('dashboard/tampilanawal');
     }
 
+    public function registerAction()
+    {
+        //$this->view->disable();
+        
+    }
 
-    public function dashboardawalAction(){
+    public function dashawalAction(){
         
         $this->view->pick('dashboard/dashboardawal');
     }   
+
+    public function awalAction()
+    {
+        echo "lalala";
+    }
 
      // public function storeAction()
     // {

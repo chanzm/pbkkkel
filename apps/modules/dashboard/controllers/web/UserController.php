@@ -48,7 +48,7 @@ class UserController extends Controller
             $_isUser = $this->session->get('user');
             if($_isUser)
             {
-                $this->response->redirect('dashboardawal');
+                $this->response->redirect('dashawal');
             }
             $this->view->pick('dashboard/login');
 
@@ -71,7 +71,8 @@ class UserController extends Controller
     	                   ]
     	               );
     	               // echo "Masuk bos mantap";
-    	               (new Response())->redirect('dashboardawal')->send();
+    	     
+    	               (new Response())->redirect('dashawal')->send();
     	           }
     	           else{
     	               // echo "Gagal masuk sebagai admin. Silakan cek kembali username dan password anda.";

@@ -39,18 +39,43 @@ $router->addPost('/login', [
     'action' => 'storelogin'
 ]);
 
-$router->addGet('/dashboardawal', [
+$router->addGet('/dashawal', [
     'namespace' => $namespace,
     'module' => 'dashboard',
     'controller' => 'Dashboard',
-    'action' => 'dashboardawal'
-]);
+    'action' => 'dashawal'
+]
+);
 
 $router->addGet('/logout', [
     'namespace' => $namespace,
     'module' => 'dashboard',
     'controller' => 'User',
     'action' => 'logout'
+]
+);
+
+$router->addGet('/allhotel', [
+    'namespace' => $namespace,
+    'module' => 'dashboard',
+    'controller' => 'Hotel',
+    'action' => 'allhotel'
+]
+);
+
+$router->addGet('/detailhotel', [
+    'namespace' => $namespace,
+    'module' => 'dashboard',
+    'controller' => 'Hotel',
+    'action' => 'detailhotel'
+]
+);
+
+$router->addGet('/listpesanan', [
+    'namespace' => $namespace,
+    'module' => 'dashboard',
+    'controller' => 'Pemesanan',
+    'action' => 'listpesanan'
 ]
 );
 
