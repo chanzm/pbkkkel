@@ -7,7 +7,7 @@ use Phalcon\Init\Dashboard\Models\Logs;
 
 class Users extends Model
 {  
-    public $id_akun;
+    public $id;
     public $nama;
     public $email;
     public $password;

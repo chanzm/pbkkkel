@@ -41,9 +41,9 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="login.php" class="nav-link">Masuk</a></li>
-	          <li class="nav-item"><a href="restaurant.html" class="nav-link">Daftar</a></li>
+	          <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="login" class="nav-link">Masuk</a></li>
+	          <li class="nav-item"><a href="register" class="nav-link">Daftar</a></li>
 	        </ul>
 	      </div>
 	    </div>
