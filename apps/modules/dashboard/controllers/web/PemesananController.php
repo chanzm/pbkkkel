@@ -48,4 +48,8 @@ class PemesananController extends Controller
         $this->view->pick('dashboard/konfirmasipemesanan');
     }
 
+	public function listpesananAction()
+	{
+	    $this->view->pick('dashboard/pemesanansaya');   
+	}
 }

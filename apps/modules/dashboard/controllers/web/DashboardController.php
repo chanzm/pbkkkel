@@ -37,10 +37,15 @@ class DashboardController extends Controller
         
     }
 
-    public function dashboardAction(){
+    public function dashawalAction(){
         
-        $this->view->pick('dashboard/dashboard');
+        $this->view->pick('dashboard/dashboardawal');
     }   
+
+    public function awalAction()
+    {
+        echo "lalala";
+    }
 
      // public function storeAction()
     // {

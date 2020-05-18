@@ -39,47 +39,81 @@
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="login" class="nav-link">Masuk</a></li>
-	          <li class="nav-item"><a href="register" class="nav-link">Daftar</a></li>
-	        </ul>
-	      </div>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+    	        <ul class="navbar-nav ml-auto">
+    	          <li class="nav-item active"><a href="dashawal" class="nav-link">Home</a></li>
+    	          <li class="nav-item"><a href="allhotel" class="nav-link">Pesan Kamar</a></li>
+    	          <li class="nav-item"><a href="restaurant.html" class="nav-link">Pemesanan Saya</a></li>
+                <li class="nav-item"><a href="restaurant.html" class="nav-link">Hi, User</a>
+                 <!--    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" aria-haspopup="true">
+                        <li class="nav-item"><a class="nav-link" href="blog.html" style="color: black">Logout</a></li>
+                    </ul> -->
+                </li>
+                <li class="nav-item"><a href="logout" class="nav-link">Logout</a></li>
+
+    	        </ul>
+    	      </div>
+
+
 	    </div>
 	  </nav>
     <!-- END nav -->
 
-    <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background: linear-gradient(rgba(87, 48, 16, 0.6), rgba(30, 67, 86, 0.6)),url(images/bgbg.jpg)no-repeat;">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row no-gutters slider-text align-items-center justify-content-center">
-          <div class="col-md-12 ftco-animate text-center">
-          	<div class="text mb-5 pb-3">
-	            <h1 class="mb-3">Jatim GoDay</h1>
-	            <h2>Hotels &amp; Resorts</h2>
+<section class="ftco-section contact-section" style="background-color: #e3d1bc">
+          <div class="container">
+            <div class="row d-flex mb-5 contact-info">
+              <div class="col-md-12 mb-4">
+                <h2 class="h3">Kamar1</h2>
+              </div>
+              <div class="w-100"></div>
+               <img class="img-fluid" src="images/room-1.jpg" alt="">
+
+            </div>
+            <div class="row block-9">
+              <div class="col-md-6 order-md-last d-flex">
+                <form action="#" class="bg-white p-5 contact-form">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Subject">
+                  </div>
+                  <div class="form-group">
+                    <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                  </div>
+                </form>
+              
+              </div>
+
+              <div class="col-md-6 d-flex">
+                <div class="blog_text">
+                    <a href="#"><h4>Kamar 1</h4></a>
+                    <div class="blog_author">
+                        <a href="#">Hotel : Nuria</a>
+                    </div>
+                    <p><strong>DESKRIPSI:</strong><br>disiniii </p>
+                   <p><strong>HARGA:</strong><br>disiniii </p>
+                   <p><strong>KAPASITAS:</strong><br>disiniii </p>
+                    <p>Apalagi yaa,, pokok detailnya aku gapaham masyok ini di tabel mek harga ehh</p>
+                     <p><strong>DESKRIPSI:</strong><br>disiniii </p>
+                   <p><strong>HARGA:</strong><br>disiniii </p>
+                   <p><strong>KAPASITAS:</strong><br>disiniii </p>
+                    <p>Apalagi yaa,, pokok detailnya aku gapaham masyok ini di tabel mek harga ehh</p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        </div>
-      </div>
-
-      <div class="slider-item" style="background: linear-gradient(rgba(87, 48, 16, 0.6), rgba(30, 67, 86, 0.6)),url(images/room-1_dpn.jpg)no-repeat;">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row no-gutters slider-text align-items-center justify-content-center">
-          <div class="col-md-12 ftco-animate text-center">
-          	<div class="text mb-5 pb-3">
-	            <h1 class="mb-3">Jatim GoDay</h1>
-	            <h2>Join With Us</h2>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-    </section>
-
+     
+</section>
+   
+    
 
     <footer style="background-color: black">
           <div class="col-md-12 text-center">

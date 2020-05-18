@@ -31,4 +31,18 @@ class HotelController extends Controller
         die();
     }
 
+	public function allhotelAction()
+	{
+		$gethotel = $this->db->query("SELECT * from hotel")->fetchAll();
+		$this->view->setVars(
+			['gethotel'=>$gethotel,
+		]);
+	    $this->view->pick('dashboard/allhotel');   
+	}
+
+	public function detailhotelAction()
+	{
+		// $this->view->pick('dashboard/detailhotel');
+		$this->view->pick('dashboard/detailhotel');
+	}
 }
