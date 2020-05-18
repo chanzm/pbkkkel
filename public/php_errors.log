@@ -1,0 +1,16 @@
+[18-May-2020 22:42:27 Asia/Jakarta] PHP Notice:  Undefined property: Phalcon\Mvc\Model\Resultset\Simple::$nama_hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/modules/dashboard/controllers/web/HotelController.php on line 18
+[18-May-2020 22:42:27 Asia/Jakarta] PHP Stack trace:
+[18-May-2020 22:42:27 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[18-May-2020 22:42:27 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[18-May-2020 22:42:27 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[18-May-2020 22:42:27 Asia/Jakarta] PHP   4. Phalcon\Mvc\Dispatcher->dispatch() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[18-May-2020 22:42:27 Asia/Jakarta] PHP   5. Phalcon\Mvc\Dispatcher->callActionMethod() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[18-May-2020 22:42:27 Asia/Jakarta] PHP   6. Phalcon\Init\Dashboard\Controllers\Web\HotelController->indexAction() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[18-May-2020 23:29:43 Asia/Jakarta] PHP Notice:  Undefined variable: tmpt in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/modules/dashboard/controllers/web/HotelController.php on line 18
+[18-May-2020 23:29:43 Asia/Jakarta] PHP Stack trace:
+[18-May-2020 23:29:43 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[18-May-2020 23:29:43 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[18-May-2020 23:29:43 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[18-May-2020 23:29:43 Asia/Jakarta] PHP   4. Phalcon\Mvc\Dispatcher->dispatch() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[18-May-2020 23:29:43 Asia/Jakarta] PHP   5. Phalcon\Mvc\Dispatcher->callActionMethod() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[18-May-2020 23:29:43 Asia/Jakarta] PHP   6. Phalcon\Init\Dashboard\Controllers\Web\HotelController->indexAction() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33

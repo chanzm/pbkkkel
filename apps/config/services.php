@@ -20,7 +20,7 @@ $di->setShared('session',function () {
 
         $files = new Stream(
             [
-                'savePath' => '/mnt/e/git/qgather/session',
+                'savePath' => '/tmp',
             ]
         );
         
