@@ -39,13 +39,21 @@
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="login.php" class="nav-link">Masuk</a></li>
-	          <li class="nav-item"><a href="restaurant.html" class="nav-link">Daftar</a></li>
-	        </ul>
-	      </div>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+    	        <ul class="navbar-nav ml-auto">
+    	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+    	          <li class="nav-item"><a href="login.php" class="nav-link">Pesan Kamar</a></li>
+    	          <li class="nav-item"><a href="restaurant.html" class="nav-link">Pemesanan Saya</a></li>
+                <li class="nav-item"><a href="restaurant.html" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" id="navbarDropdown" role="button">Hi, User</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" aria-haspopup="true">
+                        <li class="nav-item"><a class="nav-link" href="blog.html" style="color: black">Logout</a></li>
+                    </ul>
+                </li>
+    	        </ul>
+    	      </div>
+
+
 	    </div>
 	  </nav>
     <!-- END nav -->
@@ -80,6 +88,82 @@
       </div>
     </section>
 
+        <section class="ftco-booking">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <form action="#" class="booking-form">
+                  <div class="row">
+                    <div class="col-md-3 d-flex">
+                      <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                        <div class="wrap">
+                          <label for="#">Check-in Date</label>
+                          <input type="text" class="form-control checkin_date" placeholder="Check-in date">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 d-flex">
+                      <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                        <div class="wrap">
+                          <label for="#">Check-out Date</label>
+                          <input type="text" class="form-control checkout_date" placeholder="Check-out date">
+                      </div>
+                      </div>
+                    </div>
+                    <div class="col-md d-flex">
+                      <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                        <div class="wrap">
+                          <label for="#">Room</label>
+                          <div class="form-field">
+                            <div class="select-wrap">
+                              <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                              <select name="" id="" class="form-control">
+                                <option value="">Suite</option>
+                                <option value="">Family Room</option>
+                                <option value="">Deluxe Room</option>
+                                <option value="">Classic Room</option>
+                                <option value="">Superior Room</option>
+                                <option value="">Luxury Room</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md d-flex">
+                      <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                        <div class="wrap">
+                          <label for="#">Person</label>
+                          <div class="form-field">
+                            <div class="select-wrap">
+                              <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                              <select name="" id="" class="form-control">
+                                <option value="">1 </option>
+                                <option value="">2 </option>
+                                <option value="">3 </option>
+                                <option value="">4 </option>
+                                <option value="">5 </option>
+                                <option value="">6 </option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md d-flex">
+                      <div class="form-group d-flex align-self-stretch">
+                        <input type="submit" value="Check Availability" class="btn btn-primary py-3 px-4 align-self-stretch">
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+   
+   
+    
 
     <footer style="background-color: black">
           <div class="col-md-12 text-center">

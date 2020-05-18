@@ -32,7 +32,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php"><img src="images/logoc.png" type="image/x-icon"></a>
+	      <a class="navbar-brand" href="index.html"><img src="images/logoc.png" type="image/x-icon"></a>
    <!-- 
    <link rel="icon" href="images/logo_fix.png" type="image/x-icon" /> -->
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="login.php" class="nav-link">Masuk</a></li>
+	          <li class="nav-item"><a href="rooms.html" class="nav-link">Masuk</a></li>
 	          <li class="nav-item"><a href="restaurant.html" class="nav-link">Daftar</a></li>
 	        </ul>
 	      </div>
@@ -51,21 +51,21 @@
     <!-- END nav -->
 
     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background: linear-gradient(rgba(87, 48, 16, 0.6), rgba(30, 67, 86, 0.6)),url(images/bgbg.jpg)no-repeat;">
+      <div class="slider-item" style="background: linear-gradient(rgba(87, 48, 16, 0.6), rgba(30, 67, 86, 0.6)),url(images/bg_1.jpeg)no-repeat;">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-12 ftco-animate text-center">
           	<div class="text mb-5 pb-3">
 	            <h1 class="mb-3">Jatim GoDay</h1>
-	            <h2>Hotels &amp; Resorts</h2>
+	            <h2>Hotels &amp; Resort</h2>
             </div>
           </div>
         </div>
         </div>
       </div>
 
-      <div class="slider-item" style="background: linear-gradient(rgba(87, 48, 16, 0.6), rgba(30, 67, 86, 0.6)),url(images/room-1_dpn.jpg)no-repeat;">
+      <div class="slider-item" style="background: linear-gradient(rgba(87, 48, 16, 0.6), rgba(30, 67, 86, 0.6)),url(images/bg_3.jpg)no-repeat;">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -80,16 +80,19 @@
       </div>
     </section>
 
+ 
+   
+   
+    
 
     <footer style="background-color: black">
+      <br>
           <div class="col-md-12 text-center">
-<br>
+
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="icon-heart color-danger" aria-hidden="true"></i>  <a href="#" target="_blank">Jatim GoDay</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="icon-heart color-danger" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank">Jatim GoDay</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-
           </div>
-
     </footer>
     
   
