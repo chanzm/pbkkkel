@@ -114,12 +114,12 @@
                           {{ p.total_harga }}
                       </td>
                       <td>
-                          Bukti wkwk
+                          {{p.file_bukti}}
                       </td>
                       <td>
                          {% if p.status_bayar == 0 %}
                             <div class="col text-center">
-                              <a href="#" class="button btn btn-sm btn-primary">Konfirmasi</a>
+                              <a href="{{url("uploadbukti/"~ p.id_pemesanan )}}" class="button btn btn-sm btn-primary">Konfirmasi</a>
                             </div>
                          {% else %}
                              Confirmed

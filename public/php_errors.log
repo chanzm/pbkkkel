@@ -638,3 +638,43 @@
 [19-May-2020 09:03:10 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
 [19-May-2020 09:03:10 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
 [19-May-2020 09:03:10 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP Notice:  Undefined variable: auth in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%dashboardawal.volt.compiled on line 47
+[19-May-2020 09:13:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%dashboardawal.volt.compiled on line 47
+[19-May-2020 09:13:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:13:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:13 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%dashboardawal.volt.compiled on line 47
+[19-May-2020 09:44:13 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 09:44:13 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 09:44:13 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 09:44:13 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:13 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:13 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:13 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:13 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:13 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:14 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%dashboardawal.volt.compiled on line 47
+[19-May-2020 09:44:14 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 09:44:14 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 09:44:14 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 09:44:14 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:14 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:14 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:14 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:14 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 09:44:14 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33

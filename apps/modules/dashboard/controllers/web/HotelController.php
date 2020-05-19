@@ -48,6 +48,11 @@ class HotelController extends Controller
     
     public function searchHotelAction()
     {
+        $_isUser = $this->session->get('user');
+        if($_isUser)
+        {
+            $this->response->redirect('dashawal');
+        }
         $data['kota'] =$this->request->getPost('kota');
         $data['checkin'] = $this->request->getPost('checkin');
         $data['checkout'] = $this->request->getPost('checkout');

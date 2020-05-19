@@ -111,11 +111,12 @@ $router->addGet('/detailhotel/:params', [
 ]
 );
 
-$router->addGet('/listpesanan', [
+$router->addGet('/listpesanan/:params', [
     'namespace' => $namespace,
     'module' => 'dashboard',
     'controller' => 'Pemesanan',
-    'action' => 'listpesanan'
+    'action' => 'listpesanan',
+    'params' => 1
 ]
 );
 

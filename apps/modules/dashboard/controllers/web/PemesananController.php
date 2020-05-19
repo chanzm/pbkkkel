@@ -19,6 +19,11 @@ class PemesananController extends Controller
 
     public function inputAction($idHotel)
     {
+        $_isUser = $this->session->get('user');
+        if($_isUser)
+        {
+            $this->response->redirect('dashawal');
+        }
         $request = $this->request;
         $hotel = Hotel::findFirst("id_hotel='$idHotel'");
         if ($request->isPost()){
@@ -96,9 +101,9 @@ class PemesananController extends Controller
         $this->view->pick('dashboard/uploadbukti');
     }
 
-	public function listpesananAction()
+	public function listpesananAction($id)
 	{
-        $psn = Pemesanan::find();
+        $psn = Pemesanan::find("id_user='$id'");
         $this->view->psn = $psn;
 	    $this->view->pick('dashboard/pemesanansaya');   
 	}

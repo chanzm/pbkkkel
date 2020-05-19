@@ -80,7 +80,7 @@
                                 <p><strong>DESKRIPSI:</strong><br>{{hotel.deskripsi}} </p>
                                <p><strong>HARGA:</strong><br>{{hotel.harga_hotel}} </p>
                                <p><strong>KAPASITAS:</strong><br>{{hotel.total_kamar - hotel.kamar_terpakai}} </p>
-                                <p>Apalagi yaa,, pokok detailnya aku gapaham masyok ini di tabel mek harga ehh</p>
+                           
                             </div>
                         </div>
                     </div>

@@ -38,7 +38,7 @@ class DashboardController extends Controller
     }
 
     public function dashawalAction(){
-        
+        $this->view->setVar('auth',  $this->session->get('user'));
         $this->view->pick('dashboard/dashboardawal');
     }   
 
