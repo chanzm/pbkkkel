@@ -98,6 +98,10 @@ class PemesananController extends Controller
 
 	public function listpesananAction()
 	{
+        $psn = Pemesanan::find();
+        $this->view->psn = $psn;
 	    $this->view->pick('dashboard/pemesanansaya');   
 	}
+
+
 }
