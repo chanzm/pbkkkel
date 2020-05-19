@@ -27,6 +27,20 @@
     <link rel="stylesheet" href="<?= $this->url->get('css/flaticon.css') ?>">
     <link rel="stylesheet" href="<?= $this->url->get('css/icomoon.css') ?>">
     <link rel="stylesheet" href="<?= $this->url->get('css/style.css') ?>">
+
+    <!-- ini mulai load datatable -->
+     <link rel="stylesheet" href="<?= $this->url->get('asset/bower_components/font-awesome/css/font-awesome.min.css') ?>">
+     <!-- Ionicons -->
+     <link rel="stylesheet" href="<?= $this->url->get('asset/bower_components/Ionicons/css/ionicons.min.css') ?>">
+       <!-- DataTables -->
+     <link rel="stylesheet" href="<?= $this->url->get('asset/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css') ?>"> 
+     <!-- Theme style -->
+     <link rel="stylesheet" href="<?= $this->url->get('asset/dist/css/AdminLTE.min.css') ?>">
+     <!-- AdminLTE Skins. Choose a skin from the css/skins
+          folder instead of downloading all of them to reduce the load. -->
+     <link rel="stylesheet" href="<?= $this->url->get('asset/dist/css/skins/_all-skins.min.css') ?>">
+     <script src="<?= $this->url->get('asset/bower_components/datatables.net/js/jquery.dataTables.min.js') ?>"></script>
+    <link rel="stylesheet" href="<?= $this->url->get('asset/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css') ?>"> 
   </head>
   <body>
 
@@ -60,9 +74,66 @@
 	  </nav>
     <!-- END nav -->
 
-      <section class="ftco-section" style="background-color: #e3d1bc">
+<section class="ftco-section" style="background-color: #e3d1bc">
+        <br><br><br>
+        <div class="container-fluid"> 
+         <div class="card-body">
+          <div class="table-responsive">
+          <table  id="example2" class="table table-striped table-bordered table-hover text-center" width="100%" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nama Pemesan</th>
+                    <th>Nama Kamar</th>
+                    <th>Nama Tamu</th>
+                    <th>Check-in</th>
+                    <th>Check-out</th>
+                    <th>Total Harga</th>
+                    <th>Upload Bukti</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+   <?php foreach ($psn as $p) { ?> 
+                  <tr>
+                      <td>
+                          <?= $p->nama_pemesan ?>
+                      </td>
+                      <td>
+                          <?= $p->id_hotel ?>
+                      </td>
+                      <td>
+                          <?= $p->nama_tamu ?>
+                      </td>
+                      <td>
+                          <?= $p->tgl_checkin ?>
+                      </td>
+                      <td>
+                          <?= $p->tgl_checkout ?>
+                      </td>
+                      <td>
+                          <?= $p->total_harga ?>
+                      </td>
+                      <td>
+                          Bukti wkwk
+                      </td>
+                      <td>
+                         <?php if ($p->status_bayar == 0) { ?>
+                            <div class="col text-center">
+                              <a href="#" class="button btn btn-sm btn-primary">Konfirmasi</a>
+                            </div>
+                         <?php } else { ?>
+                             Confirmed
+                        <?php } ?>
+                      </td>
 
-      </section>
+            </tr>
+
+  <?php } ?>
+    
+        </tbody>
+          </table>
+          </div></div></div>
+</section>
 
 
 
@@ -101,6 +172,34 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="<?= $this->url->get('js/google-map.js') ?>"></script>
   <script src="<?= $this->url->get('js/main.js') ?>"></script>
+
+          <script src="<?= $this->url->get('asset/bower_components/jquery/dist/jquery.min.js') ?>"></script>
+          <!-- Bootstrap 3.3.7 -->
+          <script src="<?= $this->url->get('asset/bower_components/bootstrap/dist/js/bootstrap.min.js') ?>"></script>
+          <!-- SlimScroll -->
+          <script src="<?= $this->url->get('asset/bower_components/jquery-slimscroll/jquery.slimscroll.min.js') ?>"></script>
+          <!-- FastClick -->
+          <script src="<?= $this->url->get('asset/bower_components/fastclick/lib/fastclick.js') ?>"></script>
+          <!-- DataTables -->
+          <script src="<?= $this->url->get('asset/bower_components/datatables.net/js/jquery.dataTables.min.js') ?>"></script>
+  <!--         <script src="../../asset/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script> -->
+          <!-- AdminLTE App -->
+          <script src="<?= $this->url->get('/asset/dist/js/adminlte.min.js') ?>"></script>
+          <!-- AdminLTE for demo purposes -->
+          <script src="<?= $this->url->get('asset/dist/js/demo.js') ?>"></script>
+          <script>
+          $.noConflict();
+          jQuery( document ).ready(function( $ ) {
+              $('#example2').DataTable();
+            })
+            
+          </script>
+
+          <style>
+            .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+               background-color:#e4f2f5;
+
+          </style>
     
   </body>
 </html>
