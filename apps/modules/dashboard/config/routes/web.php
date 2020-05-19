@@ -128,4 +128,13 @@ $router->addPost('/addpemesanan/:params', [
 ]
 );
 
+$router->add('/uploadbukti/:params', [
+    'namespace' => $namespace,
+    'module' => 'dashboard',
+    'controller' => 'Pemesanan',
+    'action' => 'uploadBukti',
+    'params' => 1
+]
+);
+
 return $router;

@@ -538,3 +538,23 @@
 [19-May-2020 06:36:17 Asia/Jakarta] PHP   4. Phalcon\Mvc\Dispatcher->dispatch() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
 [19-May-2020 06:36:17 Asia/Jakarta] PHP   5. Phalcon\Mvc\Dispatcher->callActionMethod() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
 [19-May-2020 06:36:17 Asia/Jakarta] PHP   6. Phalcon\Init\Dashboard\Controllers\Web\PemesananController->addPemesananAction() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 07:25:10 Asia/Jakarta] PHP Warning:  move_uploaded_file(files/Untitled Diagram (11).jpg): failed to open stream: No such file or directory in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/modules/dashboard/controllers/web/PemesananController.php on line 81
+[19-May-2020 07:25:10 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   4. Phalcon\Mvc\Dispatcher->dispatch() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   5. Phalcon\Mvc\Dispatcher->callActionMethod() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   6. Phalcon\Init\Dashboard\Controllers\Web\PemesananController->uploadBuktiAction() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   7. Phalcon\Http\Request\File->moveTo() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/modules/dashboard/controllers/web/PemesananController.php:81
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   8. move_uploaded_file() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/modules/dashboard/controllers/web/PemesananController.php:81
+[19-May-2020 07:25:10 Asia/Jakarta] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php5WL5Pu' to 'files/Untitled Diagram (11).jpg' in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/modules/dashboard/controllers/web/PemesananController.php on line 81
+[19-May-2020 07:25:10 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   4. Phalcon\Mvc\Dispatcher->dispatch() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   5. Phalcon\Mvc\Dispatcher->callActionMethod() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   6. Phalcon\Init\Dashboard\Controllers\Web\PemesananController->uploadBuktiAction() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   7. Phalcon\Http\Request\File->moveTo() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/modules/dashboard/controllers/web/PemesananController.php:81
+[19-May-2020 07:25:10 Asia/Jakarta] PHP   8. move_uploaded_file() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/modules/dashboard/controllers/web/PemesananController.php:81

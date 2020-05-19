@@ -32,7 +32,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php"><img src="images/logoc.png" type="image/x-icon"></a>
+	      <a class="navbar-brand" href="index.php"><img src="{{url('images/logoc.png')}}" type="image/x-icon"></a>
    <!-- 
    <link rel="icon" href="images/logo_fix.png" type="image/x-icon" /> -->
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,14 +66,14 @@
                   <div class="col-lg-12">
                       <div class="single_blog_inner">
                         <br><br>
-                          <h3 class="text-center">Silahkan mengupload bukti pembayaran dalam waktu 1x24 jam</h3>
+                          <h3 class="text-center">Silahkan mengupload bukti pembayaran dalam waktu 1 x 24 jam</h3>
                         <br><br>
 
                           <div class="text-center">
-                             <form action="#">
+                             <form method="POST" action="{{url("uploadbukti/"~ id )}}" enctype="multipart/form-data">
                                <div class="fields">
                                  <input type = "file" name="foto_bukti_bayar"> <br><br><br>
-                                 <a class="btn btn-lg py-3 px-4 btn-primary" href="">Upload</a>
+                                 <button type="submit"class="btn btn-lg py-3 px-4 btn-primary">Upload</button>
                                </div>
                               </form>
                           </div>

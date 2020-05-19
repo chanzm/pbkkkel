@@ -67,6 +67,35 @@ class PemesananController extends Controller
         $this->response->redirect('dashawal');
     }
 
+    public function uploadBuktiAction($idPemesanan)
+    {
+        $this->view->setVar('id', $idPemesanan);
+        $request = $this->request;
+        if ($request->hasFiles()) {
+            $baseLocation = 'files/';
+
+            // Print the real file names and sizes
+            foreach ($this->request->getUploadedFiles() as $file) {
+                $location = $baseLocation.$file->getName();
+                $sql = "UPDATE [pemesanan] SET status_bayar = 1 WHERE id_pemesanan=:id_pemesanan";
+                $param = 
+                ['id_pemesanan' => $idPemesanan];
+                $updateStatus = $this->db->execute($sql, $param);
+                $sql2 = "UPDATE [pemesanan] SET file_bukti = :nama_file WHERE id_pemesanan=:id_pemesanan";
+                $param2 = 
+                ['id_pemesanan' => $idPemesanan,
+                    'nama_file' => $location];
+                $upadateFile = $this->db->execute($sql2, $param2);
+                if($upadateFile && $updateStatus){
+                     //Move the file into the application
+                    $file->moveTo($baseLocation . $file->getName());
+                }
+               
+            }
+        }
+        $this->view->pick('dashboard/uploadbukti');
+    }
+
 	public function listpesananAction()
 	{
 	    $this->view->pick('dashboard/pemesanansaya');   

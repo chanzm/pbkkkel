@@ -21,4 +21,5 @@ class Pemesanan extends Model
     public $nama_tamu;
     public $nama_rekening;
     public $nomor_rekening;
+    public $file_bukti;
 }
