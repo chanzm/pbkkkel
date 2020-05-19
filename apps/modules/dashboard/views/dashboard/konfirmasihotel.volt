@@ -78,9 +78,7 @@
                                     <a href="#">Hotel : Nuria</a>
                                 </div>
                                 <p><strong>DESKRIPSI:</strong><br>{{hotel.deskripsi}} </p>
-                               <p><strong>HARGA:</strong><br>{{hotel.harga_hotel}} </p>
-                               <p><strong>KAPASITAS:</strong><br>{{hotel.total_kamar - hotel.kamar_terpakai}} </p>
-                                <p>Apalagi yaa,, pokok detailnya aku gapaham masyok ini di tabel mek harga ehh</p>
+                               <p><strong>TOTAL HARGA:</strong><br>{{pemesanan.total_harga}} </p>
                             </div>
                         </div>
                     </div>
@@ -88,50 +86,48 @@
                 <!-- buat form -->
                 <div class="col-lg-4">
           <div class="sidebar-wrap bg-light ftco-animate">
-            <h3 class="heading mb-4">Form Booking</h3>
-            <form method="POST" action="{{url("inputpemesanan/"~ hotel.id_hotel )}}">
+            <h3 class="heading mb-4">Konfirmasi Data Pemesanan</h3>
+            <form method="POST" action="{{url("addpemesanan/"~ hotel.id_hotel )}}">
               <div class="fields">
                 <div class="form-group">
-                  <input type="text" id="nama_pemesan" name="nama_pemesan" class="form-control" placeholder="Nama pemesan">
+                  <label for="nama_pemesan">Nama Pemesan</label>
+                  <input type="text" id="nama_pemesan" name="nama_pemesan" class="form-control" readonly value="{{pemesanan.nama_pemesan}}">
                 </div>
                 <div class="form-group">
-                  <input type="text" id="nama_tamu" name="nama_tamu" class="form-control" placeholder="Nama tamu">
+                  <label for="nama_pemesan">Nama Tamu</label>
+                  <input type="text" id="nama_tamu" name="nama_tamu" class="form-control" readonly value="{{pemesanan.nama_tamu}}">
                 </div>
                 <div class="form-group">
-                  <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                  <label for="nama_pemesan">Email</label>
+                  <input type="email" id="email" name="email" class="form-control" readonly value="{{pemesanan.email}}">
                 </div>
                 <div class="form-group">
-                  <input type="text" id="telepon" name="telepon" class="form-control" placeholder="Telepon">
+                  <label for="nama_pemesan">Telepon</label>
+                  <input type="text" id="telepon" name="telepon" class="form-control" readonly value="{{pemesanan.telepon}}">
                 </div>
                 <div class="form-group">
-                  <input type="text" id="nama_rekening" name="nama_rekening" class="form-control" placeholder="Nama Rekening">
+                  <label for="nama_pemesan">Nama Rekening</label>
+                  <input type="text" id="nama_rekening" name="nama_rekening" class="form-control" readonly value="{{pemesanan.nama_rekening}}">
                 </div>
                 <div class="form-group">
-                  <input type="text" id="nomor_rekening" name="nomor_rekening" class="form-control" placeholder="Nomor Rekening">
+                  <label for="nama_pemesan">Nomor Rekening</label>
+                  <input type="text" id="nomor_rekening" name="nomor_rekening" class="form-control" readonly value="{{pemesanan.nomor_rekening}}">
                 </div>
                 <div class="form-group">
-                  <input type="text" id="tgl_checkin" name="tgl_checkin" class="form-control checkin_date" placeholder="Check In Date">
+                  <label for="nama_pemesan">Check In</label>
+                  <input type="text" id="tgl_checkin" name="tgl_checkin" class="form-control" readonly value="{{pemesanan.tgl_checkin}}">
                 </div>
                 <div class="form-group">
-                  <input type="text" id="tgl_checkout" name="tgl_checkout" class="form-control checkout_date" placeholder="Check Out Date">
+                  <label for="nama_pemesan">Check Out</label>
+                  <input type="text" id="tgl_checkout" name="tgl_checkout" class="form-control" readonly value="{{pemesanan.tgl_checkout}}">
+                </div>
+                <div class="form-group">
+                  <label for="nama_pemesan">Jumlah Kamar</label>
+                  <input type="number" id="jumlah" name="jumlah" class="form-control" readonly value="{{pemesanan.jumlah_kamar}}">
                 </div>
    
                 <div class="form-group">
-                  <div class="select-wrap one-third">
-                     <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                     <select name="jumlah" id="jumlah" class="form-control">
-                      <option value="">Jumlah Kamar</option>
-                      <option value="1">1 Kamar</option>
-                       <option value="2">2 Kamar</option>
-                       <option value="3">3 Kamar</option>
-                       <option value="4">4 Kamar</option>
-                       <option value="5">5 Kamar</option>
-                       <option value="6">6 Kamar</option>
-                     </select>
-                   </div>
-                </div>
-                <div class="form-group">
-                  <input type="submit" value="BOOK" class="btn btn-primary py-3 px-5">
+                  <input type="submit" value="Pesan Sekarang" class="btn btn-primary py-3 px-2">
                 </div>
               </div>
              </form>

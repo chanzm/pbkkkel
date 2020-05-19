@@ -64,15 +64,16 @@ class UserController extends Controller
     	       if ($user){
     	           if($this->security->checkHash($password, $user->password)){
     	               $this->session->set(
-    	                   'user',
+    	                   '        ',
     	                   [
     	                       'id' => $user->id,
     	                       'nama' => $user->nama,
     	                   ]
     	               );
     	               // echo "Masuk bos mantap";
-    	     
-    	               (new Response())->redirect('dashawal')->send();
+             
+                       $this->response->redirect('dashawal');
+    	            //    (new Response())->redirect('dashawal')->send();
     	           }
     	           else{
     	               // echo "Gagal masuk sebagai admin. Silakan cek kembali username dan password anda.";

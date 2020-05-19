@@ -11,6 +11,10 @@ use Phalcon\Init\Dashboard\Models\Hotel;
 
 class HotelController extends Controller
 {
+    public function initialize()
+    {
+        $this->view->setVar('auth',  $this->session->get('user'));
+    }
     public function indexAction()
     {
         $kamars = Hotel::find();
@@ -40,8 +44,10 @@ class HotelController extends Controller
 	    $this->view->pick('dashboard/allhotel');   
 	}
 
-	public function detailhotelAction()
+	public function detailhotelAction($id)
 	{
+        $hotel = Hotel::findFirst("id_hotel = '$id'");
+        $this->view->setVar('hotel',  $hotel);
 		// $this->view->pick('dashboard/detailhotel');
 		$this->view->pick('dashboard/detailhotel');
 	}

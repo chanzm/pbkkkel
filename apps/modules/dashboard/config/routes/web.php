@@ -70,6 +70,13 @@ $router->add('/inputpemesanan/:params', [
     'params' =>1
 ]);
 
+$router->add('/konfirmasipemesanan/:params', [
+    'namespace' => $namespace,
+    'module' => 'dashboard',
+    'controller' => 'pemesanan',
+    'action' => 'konfirmasi',
+    'params' =>1
+]);
 
 $router->addGet('/dashawal', [
     'namespace' => $namespace,
@@ -95,11 +102,12 @@ $router->addGet('/allhotel', [
 ]
 );
 
-$router->addGet('/detailhotel', [
+$router->addGet('/detailhotel/:params', [
     'namespace' => $namespace,
     'module' => 'dashboard',
     'controller' => 'Hotel',
-    'action' => 'detailhotel'
+    'action' => 'detailhotel',
+    'params' =>1
 ]
 );
 
@@ -108,6 +116,15 @@ $router->addGet('/listpesanan', [
     'module' => 'dashboard',
     'controller' => 'Pemesanan',
     'action' => 'listpesanan'
+]
+);
+
+$router->addPost('/addpemesanan/:params', [
+    'namespace' => $namespace,
+    'module' => 'dashboard',
+    'controller' => 'Pemesanan',
+    'action' => 'addPemesanan',
+    'params' => 1
 ]
 );
 

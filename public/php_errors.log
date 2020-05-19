@@ -14,3 +14,527 @@
 [18-May-2020 23:29:43 Asia/Jakarta] PHP   4. Phalcon\Mvc\Dispatcher->dispatch() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
 [18-May-2020 23:29:43 Asia/Jakarta] PHP   5. Phalcon\Mvc\Dispatcher->callActionMethod() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
 [18-May-2020 23:29:43 Asia/Jakarta] PHP   6. Phalcon\Init\Dashboard\Controllers\Web\HotelController->indexAction() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:15:12 Asia/Jakarta] PHP Notice:  Trying to get property 'nama' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/modules/dashboard/controllers/web/HotelController.php on line 46
+[19-May-2020 02:15:12 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:15:12 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:15:12 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:15:12 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:15:12 Asia/Jakarta] PHP   4. Phalcon\Mvc\Dispatcher->dispatch() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:15:12 Asia/Jakarta] PHP   5. Phalcon\Mvc\Dispatcher->callActionMethod() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:15:12 Asia/Jakarta] PHP   6. Phalcon\Init\Dashboard\Controllers\Web\HotelController->detailhotelAction() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:34:02 Asia/Jakarta] PHP Warning:  A non-numeric value encountered in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/modules/dashboard/controllers/web/PemesananController.php on line 26
+[19-May-2020 02:34:02 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:34:02 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:34:02 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:34:02 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:34:02 Asia/Jakarta] PHP   4. Phalcon\Mvc\Dispatcher->dispatch() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:34:02 Asia/Jakarta] PHP   5. Phalcon\Mvc\Dispatcher->callActionMethod() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:34:02 Asia/Jakarta] PHP   6. Phalcon\Init\Dashboard\Controllers\Web\PemesananController->inputAction() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Undefined variable: auth in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 48
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 48
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 80
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Trying to get property 'deskripsi' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 80
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 81
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Trying to get property 'harga_hotel' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 81
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Trying to get property 'total_kamar' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Trying to get property 'kamar_terpakai' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 92
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Notice:  Trying to get property 'id_hotel' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 92
+[19-May-2020 02:46:23 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:46:23 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Undefined variable: auth in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 48
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 48
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 80
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Trying to get property 'deskripsi' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 80
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 81
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Trying to get property 'harga_hotel' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 81
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Trying to get property 'total_kamar' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Trying to get property 'kamar_terpakai' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 92
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Trying to get property 'id_hotel' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 92
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Undefined variable: pemesana in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 95
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Notice:  Trying to get property 'nama_pemesan' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 95
+[19-May-2020 02:47:01 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:01 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Undefined variable: auth in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 48
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 48
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 80
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Trying to get property 'deskripsi' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 80
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 81
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Trying to get property 'harga_hotel' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 81
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Trying to get property 'total_kamar' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Trying to get property 'kamar_terpakai' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 92
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Trying to get property 'id_hotel' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 92
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Undefined variable: pemesana in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 95
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Notice:  Trying to get property 'nama_pemesan' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 95
+[19-May-2020 02:47:38 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:47:38 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 80
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Notice:  Trying to get property 'deskripsi' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 80
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 81
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Notice:  Trying to get property 'harga_hotel' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 81
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Notice:  Trying to get property 'total_kamar' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Notice:  Trying to get property 'kamar_terpakai' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 82
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Notice:  Undefined variable: hotel in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 92
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Notice:  Trying to get property 'id_hotel' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/cache/%%mnt%%e%%kuliah%%semester 6%%pbkk%%pbkkkel%%apps%%modules%%dashboard%%views%%dashboard%%konfirmasihotel.volt.compiled on line 92
+[19-May-2020 02:49:00 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   4. Phalcon\Mvc\View->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   5. Phalcon\Mvc\View->processRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   6. Phalcon\Mvc\View->engineRender() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   7. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 02:49:00 Asia/Jakarta] PHP   8. Phalcon\Mvc\View\Engine\Volt->render() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 06:36:17 Asia/Jakarta] PHP Notice:  Trying to get property 'id' of non-object in /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/modules/dashboard/controllers/web/PemesananController.php on line 64
+[19-May-2020 06:36:17 Asia/Jakarta] PHP Stack trace:
+[19-May-2020 06:36:17 Asia/Jakarta] PHP   1. {main}() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:0
+[19-May-2020 06:36:17 Asia/Jakarta] PHP   2. Bootstrap->init() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/public/index.php:22
+[19-May-2020 06:36:17 Asia/Jakarta] PHP   3. Bootstrap->handle() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 06:36:17 Asia/Jakarta] PHP   4. Phalcon\Mvc\Dispatcher->dispatch() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 06:36:17 Asia/Jakarta] PHP   5. Phalcon\Mvc\Dispatcher->callActionMethod() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33
+[19-May-2020 06:36:17 Asia/Jakarta] PHP   6. Phalcon\Init\Dashboard\Controllers\Web\PemesananController->addPemesananAction() /mnt/e/Kuliah/semester 6/pbkk/pbkkkel/apps/Bootstrap.php:33

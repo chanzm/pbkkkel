@@ -71,16 +71,16 @@
     			 {% for g in gethotel %} 
     			<div class="col-sm col-md-6 col-lg-4 ftco-animate">
     				<div class="room">
-    					<a href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/room-1.jpg);">
+    					<a href="{{url("detailhotel/"~ g['id_hotel'] )}}" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/room-1.jpg);">
     						<div class="icon d-flex justify-content-center align-items-center">
     							<span class="icon-search2"></span>
     						</div>
     					</a>
     					<div class="text p-3 text-center">
-    						<h3 class="mb-3"><a href="rooms.html">{{g['nama_hotel']}}</a></h3>
+    						<h3 class="mb-3"><a href="{{url("detailhotel/"~ g['id_hotel'] )}}">{{g['nama_hotel']}}</a></h3>
     						<p><span class="price mr-2">{{g['harga_hotel']}}</span> <span class="per">per night</span></p>
     						<hr>
-    						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
+    						<p class="pt-1"><a href="{{url("detailhotel/"~ g['id_hotel'] )}}" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
     					</div>
     				</div>
     			</div>

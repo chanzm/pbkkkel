@@ -19,4 +19,6 @@ class Pemesanan extends Model
     public $email;
     public $telepon;
     public $nama_tamu;
+    public $nama_rekening;
+    public $nomor_rekening;
 }
