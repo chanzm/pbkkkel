@@ -127,8 +127,8 @@
                           <label for="#">Room</label>
                           <div class="form-field">
                             <div class="select-wrap">
-                              <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                              <select name="" id="" class="form-control">
+                             <!--  <div class="icon"><span class="ion-ios-arrow-down"></span></div> -->
+                              <select name="" id="" class="form-control form-control input-md class="multiple" multiple="multiple"">
                                 <option value="">Suite</option>
                                 <option value="">Family Room</option>
                                 <option value="">Deluxe Room</option>
@@ -144,8 +144,8 @@
                           <label for="#">Kota</label>
                           <div class="form-field">
                             <div class="select-wrap">
-                              <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                              <select name="" id="" class="form-control">
+                          <!--     <div class="icon"><span class="ion-ios-arrow-down"></span></div> -->
+                              <select name="" id="" class="form-control input-md" class="multiple" multiple="multiple">
                                 <option value="">Surabaya</option>
                                 <option value="">Malang</option>
                                 <option value="">Banyuwangi</option>

@@ -31,20 +31,20 @@
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.php"><img src="images/logoc.png" type="image/x-icon"></a>
+      <div class="container">
+        <a class="navbar-brand" href="index.php"><img src="images/logoc.png" type="image/x-icon"></a>
    <!-- 
    <link rel="icon" href="images/logo_fix.png" type="image/x-icon" /> -->
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
 
 
             <div class="collapse navbar-collapse" id="ftco-nav">
-    	        <ul class="navbar-nav ml-auto">
-    	          <li class="nav-item active"><a href="dashawal" class="nav-link">Home</a></li>
-    	          <li class="nav-item"><a href="allhotel" class="nav-link">Pesan Kamar</a></li>
-    	          <li class="nav-item"><a href="restaurant.html" class="nav-link">Pemesanan Saya</a></li>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="dashawal" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="allhotel" class="nav-link">Pesan Kamar</a></li>
+                <li class="nav-item"><a href="listpesanan" class="nav-link">Pemesanan Saya</a></li>
                 <li class="nav-item"><a href="restaurant.html" class="nav-link">Hi, User</a>
                  <!--    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" aria-haspopup="true">
                         <li class="nav-item"><a class="nav-link" href="blog.html" style="color: black">Logout</a></li>
@@ -52,23 +52,23 @@
                 </li>
                 <li class="nav-item"><a href="logout" class="nav-link">Logout</a></li>
 
-    	        </ul>
-    	      </div>
+              </ul>
+            </div>
 
 
-	    </div>
-	  </nav>
+      </div>
+    </nav>
     <!-- END nav -->
 
     <section class="home-slider owl-carousel">
       <div class="slider-item" style="background: linear-gradient(rgba(87, 48, 16, 0.6), rgba(30, 67, 86, 0.6)),url(images/bgbg.jpg)no-repeat;">
-      	<div class="overlay"></div>
+        <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-12 ftco-animate text-center">
-          	<div class="text mb-5 pb-3">
-	            <h1 class="mb-3">Jatim GoDay</h1>
-	            <h2>Hotels &amp; Resorts</h2>
+            <div class="text mb-5 pb-3">
+              <h1 class="mb-3">Jatim GoDay</h1>
+              <h2>Hotels &amp; Resorts</h2>
             </div>
           </div>
         </div>
@@ -76,13 +76,13 @@
       </div>
 
       <div class="slider-item" style="background: linear-gradient(rgba(87, 48, 16, 0.6), rgba(30, 67, 86, 0.6)),url(images/room-1_dpn.jpg)no-repeat;">
-      	<div class="overlay"></div>
+        <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-12 ftco-animate text-center">
-          	<div class="text mb-5 pb-3">
-	            <h1 class="mb-3">Jatim GoDay</h1>
-	            <h2>Join With Us</h2>
+            <div class="text mb-5 pb-3">
+              <h1 class="mb-3">Jatim GoDay</h1>
+              <h2>Join With Us</h2>
             </div>
           </div>
         </div>
@@ -96,7 +96,8 @@
               <div class="col-lg-12">
                 <form action="#" class="booking-form">
                   <div class="row">
-                    <div class="col-md-3 d-flex">
+
+                    <div class="col-md-2 d-flex">
                       <div class="form-group p-4 align-self-stretch d-flex align-items-end">
                         <div class="wrap">
                           <label for="#">Check-in Date</label>
@@ -104,12 +105,20 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-md-2 d-flex">
                       <div class="form-group p-4 align-self-stretch d-flex align-items-end">
                         <div class="wrap">
                           <label for="#">Check-out Date</label>
                           <input type="text" class="form-control checkout_date" placeholder="Check-out date">
                       </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2 d-flex">
+                      <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                        <div class="wrap">
+                          <label for="#">Total Person</label>
+                          <input type="text" class="form-control" placeholder="Person">
+                        </div>
                       </div>
                     </div>
                     <div class="col-md d-flex">
@@ -118,14 +127,11 @@
                           <label for="#">Room</label>
                           <div class="form-field">
                             <div class="select-wrap">
-                              <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                              <select name="" id="" class="form-control">
+                             <!--  <div class="icon"><span class="ion-ios-arrow-down"></span></div> -->
+                              <select name="" id="" class="form-control form-control input-md class="multiple" multiple="multiple"">
                                 <option value="">Suite</option>
                                 <option value="">Family Room</option>
                                 <option value="">Deluxe Room</option>
-                                <option value="">Classic Room</option>
-                                <option value="">Superior Room</option>
-                                <option value="">Luxury Room</option>
                               </select>
                             </div>
                           </div>
@@ -135,17 +141,16 @@
                     <div class="col-md d-flex">
                       <div class="form-group p-4 align-self-stretch d-flex align-items-end">
                         <div class="wrap">
-                          <label for="#">Person</label>
+                          <label for="#">Kota</label>
                           <div class="form-field">
                             <div class="select-wrap">
-                              <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                              <select name="" id="" class="form-control">
-                                <option value="">1 </option>
-                                <option value="">2 </option>
-                                <option value="">3 </option>
-                                <option value="">4 </option>
-                                <option value="">5 </option>
-                                <option value="">6 </option>
+                          <!--     <div class="icon"><span class="ion-ios-arrow-down"></span></div> -->
+                              <select name="" id="" class="form-control input-md" class="multiple" multiple="multiple">
+                                <option value="">Surabaya</option>
+                                <option value="">Malang</option>
+                                <option value="">Banyuwangi</option>
+                                <option value="">Pacitan</option>
+                                <option value="">Kediri</option>
                               </select>
                             </div>
                           </div>
