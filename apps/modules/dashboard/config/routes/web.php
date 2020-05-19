@@ -137,4 +137,12 @@ $router->add('/uploadbukti/:params', [
 ]
 );
 
+$router->addPost('/search', [
+    'namespace' => $namespace,
+    'module' => 'dashboard',
+    'controller' => 'Hotel',
+    'action' => 'searchHotel'
+]
+);
+
 return $router;

@@ -28,13 +28,7 @@ class HotelController extends Controller
         $this->view->kamar = $kamar;
     }
 
-    public function hotelKotaAction($kota)
-    {
-        $kamars = Hotel::find("kota_hotel = '$kota'");
-        var_dump($kamars[0]);
-        die();
-    }
-
+   
 	public function allhotelAction()
 	{
 		$gethotel = $this->db->query("SELECT * from hotel")->fetchAll();
@@ -50,5 +44,32 @@ class HotelController extends Controller
         $this->view->setVar('hotel',  $hotel);
 		// $this->view->pick('dashboard/detailhotel');
 		$this->view->pick('dashboard/detailhotel');
-	}
+    }
+    
+    public function searchHotelAction()
+    {
+        $data['kota'] =$this->request->getPost('kota');
+        $data['checkin'] = $this->request->getPost('checkin');
+        $data['checkout'] = $this->request->getPost('checkout');
+        $data['room'] = $this->request->getPost('room');
+        $data['person'] = $this->request->getPost('person');
+        $sql = "SELECT * from [hotel] WHERE total_kamar-kamar_terpakai > :kamar and kota_hotel=:kota";
+        $param = 
+        ['kamar' => $data['person'],
+        'kota' => $data['kota']
+        ];
+        $gethotel = $this->db->fetchAll($sql, \Phalcon\Db\Enum::FETCH_ASSOC, $param);
+        $this->view->setVars(
+			['gethotel'=>$gethotel,
+		]);
+	    $this->view->pick('dashboard/allhotel'); 
+    }
+
+    public function hotelKotaAction()
+    {
+        $kamars = Hotel::find("kota_hotel = '$kota'");
+        var_dump($kamars[0]);
+        die();
+    }
+
 }

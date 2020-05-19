@@ -64,7 +64,7 @@ class UserController extends Controller
     	       if ($user){
     	           if($this->security->checkHash($password, $user->password)){
     	               $this->session->set(
-    	                   '        ',
+    	                   'user',
     	                   [
     	                       'id' => $user->id,
     	                       'nama' => $user->nama,

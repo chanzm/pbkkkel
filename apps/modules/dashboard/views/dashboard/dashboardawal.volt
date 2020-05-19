@@ -94,44 +94,44 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
-                <form action="#" class="booking-form">
+                <form method="POST" action="{{url("search/")}}"  class="booking-form">
                   <div class="row">
 
                     <div class="col-md-2 d-flex">
                       <div class="form-group p-4 align-self-stretch d-flex align-items-end">
                         <div class="wrap">
-                          <label for="#">Check-in Date</label>
-                          <input type="text" class="form-control checkin_date" placeholder="Check-in date">
+                          <label for="checkin">Check-in Date</label>
+                          <input name="checkin" type="text" class="form-control checkin_date" placeholder="Check-in date">
                         </div>
                       </div>
                     </div>
                     <div class="col-md-2 d-flex">
                       <div class="form-group p-4 align-self-stretch d-flex align-items-end">
                         <div class="wrap">
-                          <label for="#">Check-out Date</label>
-                          <input type="text" class="form-control checkout_date" placeholder="Check-out date">
+                          <label for="checkout">Check-out Date</label>
+                          <input name="checkout" type="text" class="form-control checkout_date" placeholder="Check-out date">
                       </div>
                       </div>
                     </div>
                     <div class="col-md-2 d-flex">
                       <div class="form-group p-4 align-self-stretch d-flex align-items-end">
                         <div class="wrap">
-                          <label for="#">Total Person</label>
-                          <input type="text" class="form-control" placeholder="Person">
+                          <label for="person">Total Person</label>
+                          <input name="person" type="number" class="form-control" placeholder="Person">
                         </div>
                       </div>
                     </div>
                     <div class="col-md d-flex">
                       <div class="form-group p-4 align-self-stretch d-flex align-items-end">
                         <div class="wrap">
-                          <label for="#">Room</label>
+                          <label for="room">Room</label>
                           <div class="form-field">
                             <div class="select-wrap">
                              <!--  <div class="icon"><span class="ion-ios-arrow-down"></span></div> -->
-                              <select name="" id="" class="form-control form-control input-md class="multiple" multiple="multiple"">
-                                <option value="">Suite</option>
-                                <option value="">Family Room</option>
-                                <option value="">Deluxe Room</option>
+                              <select name="room" id="" class="form-control form-control input-md class="multiple" multiple="multiple"">
+                                <option value="suite">Suite</option>
+                                <option value="suite">Family Room</option>
+                                <option value="suite">Deluxe Room</option>
                               </select>
                             </div>
                           </div>
@@ -141,16 +141,16 @@
                     <div class="col-md d-flex">
                       <div class="form-group p-4 align-self-stretch d-flex align-items-end">
                         <div class="wrap">
-                          <label for="#">Kota</label>
+                          <label for="kota">Kota</label>
                           <div class="form-field">
                             <div class="select-wrap">
                           <!--     <div class="icon"><span class="ion-ios-arrow-down"></span></div> -->
-                              <select name="" id="" class="form-control input-md" class="multiple" multiple="multiple">
-                                <option value="">Surabaya</option>
-                                <option value="">Malang</option>
-                                <option value="">Banyuwangi</option>
-                                <option value="">Pacitan</option>
-                                <option value="">Kediri</option>
+                              <select name="kota" id="kota" class="form-control input-md" class="multiple" multiple="multiple">
+                                <option value="surabaya">Surabaya</option>
+                                <option value="malang">Malang</option>
+                                <option value="banyuwangi">Banyuwangi</option>
+                                <option value="pacitan">Pacitan</option>
+                                <option value="kediri">Kediri</option>
                               </select>
                             </div>
                           </div>
